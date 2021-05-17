@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "twatter-userservice", "twatter-userservice.csproj", "{FD983B10-F394-40DB-903D-055EA8D53343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{EFA369DA-6ACE-4D5E-9289-B8CB294AA91D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{FD983B10-F394-40DB-903D-055EA8D53343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD983B10-F394-40DB-903D-055EA8D53343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD983B10-F394-40DB-903D-055EA8D53343}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFA369DA-6ACE-4D5E-9289-B8CB294AA91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA369DA-6ACE-4D5E-9289-B8CB294AA91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA369DA-6ACE-4D5E-9289-B8CB294AA91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA369DA-6ACE-4D5E-9289-B8CB294AA91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
