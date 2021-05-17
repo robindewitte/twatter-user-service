@@ -6,10 +6,10 @@ EXPOSE 5002
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["twatter-userservice/twatter-userservice.csproj", "twatter-userservice/"]
-RUN dotnet restore "twatter-userservice/twatter-userservice.csproj"
+COPY ["twatter-userservice.csproj", "."]
+RUN dotnet restore "./twatter-userservice.csproj"
 COPY . .
-WORKDIR "/src/twatter-userservice"
+WORKDIR "/src/."
 RUN dotnet build "twatter-userservice.csproj" -c Release -o /app/build
 
 FROM build AS publish
